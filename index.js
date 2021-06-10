@@ -33,42 +33,29 @@ let questions = [
     ],
   },
   {
-    const options = {
-  bottom: '64px', // default: '32px'
-  right: 'unset', // default: '32px'
-  left: '32px', // default: 'unset'
-  time: '0.5s', // default: '0.3s'
-  mixColor: '#fff', // default: '#fff'
-  backgroundColor: '#fff',  // default: '#fff'
-  buttonColorDark: '#100f2c',  // default: '#100f2c'
-  buttonColorLight: '#fff', // default: '#fff'
-  saveInCookies: false, // default: true,
-  label: '🌓', // default: ''
-  autoMatchOsTheme: true // default: true
-}
-
-const darkmode = new Darkmode(options);
-darkmode.showWidget();
-
     numb: 4,
-    question: 'What is the mode of nutrition in fungi??',
-    answer: 'saptrotrophic',
-    options: [
-      'saptrotrophic',
-      'holozoic',
-      'parasatic',
-      'autotrophic',
-    ],
+    question:'what does the liver excret?',
+    answer:'bile juice',
+    options:[
+      'mango juice'
+      'pepsin'
+      'dillute HCL'
+      'bile juice'
+   ]
   },
+  
   {
     numb: 5,
-    question: 'What does XML stand for?',
-    answer: 'eXtensible Markup Language',
+    question: 'how long is small intestine?',
+    answer: '22 feet',
     options: [
-      'eXtensible Markup Language',
-      'eXecutable Multiple Language',
-      'eXTra Multi-Program Language',
-      'eXamine Multiple Language',
+      '100 feet',
+      '22 feet',
+      '23.5 feet',
+      '6 feet',
     ],
   },
 ];
+ 
+
+   
