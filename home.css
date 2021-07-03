@@ -32,17 +32,4 @@ nav ul li a{
 .coantainer {
   height: 100vh;
 }
-.coantainer img {
-  width: 100%;
-  position: absolute;
-  height: 100vh;
-  object-fit: cover;
-  z-index: -1s;
-}
-.title {
-  position: absolute;
-  top: 30%;
-  left: 50%;
-  transform: translate(-50%, -30%);
-  font-size: 6rem;
-}
+
