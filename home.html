@@ -5,57 +5,54 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" a href="./home.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <title>Home</title>
   </head>
   <body>
-    <div class="wrapper">
-    <div class="sidebar">
-        <h2>Sidebar</h2>
-        <ul>
-            <li><a href="./home.html"></i>Home</a></li>
-            <li><a href="./bio.html"></i>Biology</a></li>
-            <li><a href="./pyshics.html">physics</a></li>
-      <li><a href="./chemistry.html">chemistry</a></li>
-        </ul> 
-        <div class="social_media">
-          <a href="#"><i class="fab fa-facebook-f"></i></a>
-          <a href="#"><i class="fab fa-twitter"></i></a>
-          <a href="#"><i class="fab fa-instagram"></i></a>
-      </div>
+     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="/">Home</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="bio.html">Biology<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+
+          <a class="nav-link" href="/chem.html">Chemistry</a>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="./pyshics.html" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Physics
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="/services.html">Stationary</a>
+            <a class="dropdown-item" href="/services.html">Xerox</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="/services.html"></a>
+          </div>
+        </li>
+        <li class="nav-item">
+
+          <a class="nav-link" href="/contact.html">Contact Us</a>
+        </li>
+
+      </ul>
+      
     </div>
-    <div class="likhit">
-      <h2>About This Website</h2>
-      <p>
-        <b>
-          this a is a simple website for my science project . i have made this
-          on behalf of to get 10 marks in cbse board ail projects .thank you.
-        </b>
-      </p>
-    </div>
-    <section>
-      <div class="container">
-        <h2 class="title">Scince Madness</h2>
-        <img src="./Downloads/bg.jpeg" class="bg" alt="" />
-        <img src="./Downloads/amoeba.jpeg" class="amoeba" alt="" />
-        <img src="./Downloads/flask.jpeg" class="flask" alt="" />
-        <img src="./Downloads/e.jpeg" class="e" alt="" />
-      </div>
-    </section>
-    <h1></h1>
-    <div class="contact">
-      <h3 class="last">Contact Me</h3>
-      <p>you can contact me with below icons. please like and follow my github accuont</p>
-      <a href="https://github.com/likhitnaidu"><i class="fab fa-github"></i></a>
-      <a href="https://www.youtube.com/channel/UCINPkr_j0KH6q4YvDbFTXvg"><i class="fab fa-youtube"></i></A>
-      <a href="https://vercel.com/dashboard"><span class="iconify" data-icon="simple-icons:vercel" data-inline="false"></span></a>
-    </div>
+  </nav>
   </body>
   <script
     src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"
     integrity="sha512-cdV6j5t5o24hkSciVrb8Ki6FveC2SgwGfLE31+ZQRHAeSRxYhAQskLkq3dLm8ZcWe1N3vBOEYmmbhzf7NTtFFQ=="
     crossorigin="anonymous">
  </script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/ScrollMagic.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/plugins/animation.gsap.js"></script>
   <script src="./script.js"></script>
 </html>
