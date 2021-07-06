@@ -7,8 +7,10 @@ body {
   padding:0;
   font-family:verdana;
 }
-body{
+.plant{
   background: #A9DDD6;
+	height:300px;
+	width:100%;
 }
 
 .wrapper {
