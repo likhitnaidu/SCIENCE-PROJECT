@@ -7,96 +7,204 @@ body {
   padding:0;
   font-family:verdana;
 }
-.wrapper{
-  display: flex;
-  position: relative;
+body{
+  background: #A9DDD6;
 }
 
-.wrapper .sidebar{
-  width: 200px;
-  height: 100%;
-  background: #4b4276;
-  padding: 30px 0px;
-  position: fixed;
+.wrapper {
+	position:absolute;
+	bottom:0;
+	width:100%;
 }
 
-.wrapper .sidebar h2{
-  color: #fff;
-  text-transform: uppercase;
-  text-align: center;
-  margin-bottom: 30px;
+.box {
+	position:relative;
+	margin:auto;
+	display:block;
+	margin-top:8%;
+	width:600px;
+	height:600px;
+	background:none;
 }
 
-.wrapper .sidebar ul li{
-  padding: 15px;
-  border-bottom: 1px solid #bdb8d7;
-  border-bottom: 1px solid rgba(0,0,0,0.05);
-  border-top: 1px solid rgba(255,255,255,0.05);
-}    
-
-.wrapper .sidebar ul li a{
-  color: #bdb8d7;
-  display: block;
+.pot {
+	position:absolute;
+	width:20%;
+	height:20%;
+	bottom:0;
+	left:40%;
+	background:#FCAA67;
+	-webkit-clip-path: polygon(0 0, 100% 0, 90% 100%, 10% 100%);
+	clip-path: polygon(0 0, 100% 0, 90% 100%, 10% 100%);
+	box-shadow: inset 0 16px 20px rgba(0,0,0,0.3);
 }
 
-.wrapper .sidebar ul li a .fas{
-  width: 25px;
+.pot-top {
+	position:absolute;
+	width:22%;
+	height:5%;
+	bottom:17%;
+	left:39%;
+	background:#FCAA67;
+	border-radius:3px;
 }
 
-.wrapper .sidebar ul li:hover{
-  background-color: #594f8d;
-}
-    
-.wrapper .sidebar ul li:hover a{
-  color: #fff;
-}
- 
-.wrapper .sidebar .social_media{
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  display: flex;
+.stem {
+	position:absolute;
+	width:2%;
+	height:50%;
+	left:49%;
+	bottom:20%;
+	background:#70B77E;
 }
 
-.wrapper .sidebar .social_media a{
-  display: block;
-  width: 40px;
-  background: #594f8d;
-  height: 40px;
-  line-height: 45px;
-  text-align: center;
-  margin: 0 5px;
-  color: #bdb8d7;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
+.leaf {
+	position:absolute;
+	width:700%;
+	height:10%;
+	border-radius:50%;
+	background:#70B77E;
 }
 
-.wrapper .main_content{
-  width: 100%;
-  margin-left: 200px;
+.leaf .line {
+	position:absolute;
+	width:80%;
+	height:1%;
+	background:rgba(0,0,0,0.1);
+	top:48%;
 }
 
-.wrapper .main_content .header{
-  padding: 20px;
-  background: #fff;
-  color: #717171;
-  border-bottom: 1px solid #e0e4e8;
+.leaf01 {
+	top:70%;
+	left:50%;
+	transform:rotate(-25deg);
 }
 
-.wrapper .main_content .info{
-  margin: 20px;
-  color: #717171;
-  line-height: 25px;
+.leaf02 {
+	top:50%;
+	right:50%;
+	transform:rotate(205deg);
 }
 
-.wrapper .main_content .info div{
-  margin-bottom: 20px;
+.leaf03 {
+	top:30%;
+	left:50%;
+	transform:rotate(-25deg);
+} 
+
+.leaf04 {
+	top:20%;
+	right:50%;
+	transform:rotate(205deg);
+}  
+
+.leaf05 {
+	top:-17%;
+	left:-120%;
+	transform:rotate(-60deg);
 }
 
-@media (max-height: 500px){
-  .social_media{
-    display: none !important;
-  }
+.leaf06 {
+	top:-9%;
+	right:22%;
+	transform:rotate(195deg);
 }
 
+/* --- ANIMATION --- */
+
+.stem, .leaf {
+	animation-duration: 1.2s!important;
+	animation-fill-mode:forwards;
+}   
+
+.stem.rain {
+	animation: grow 1s linear 1;
+}
+
+@keyframes grow {
+	0% {
+		bottom:-40%;
+		width:1%;
+	}
+	
+	100% {
+		bottom:20%;
+		width:2%;
+	}
+}
+
+.stem.rain .leaf {
+	animation: leafGrow 1s linear 1;
+	animation-fill-mode:forwards;
+}
+
+@keyframes leafGrow {
+	0% {
+		width:0%;
+		height:0%;
+	}
+	
+	100% {
+		width:700%;
+		height:10%;
+	}
+} 
+
+.stem.rain .leaf05 {
+	animation: topLeafRight 1s linear 1;
+}
+
+@keyframes topLeafRight {
+	0% {
+		top:5%;
+		width:0%;
+		height:0%;
+		left:10%;
+	}
+	
+	100% {
+		width:700%;
+		height:10%;
+		top:-17%;
+		left:-120%;
+	}
+}
+
+.stem.rain .leaf06 {
+	animation: topLeafLeft 1s linear 1;
+}
+
+@keyframes topLeafLeft {
+	0% {
+		top:0%;
+		width:0%;
+		height:0%;
+	}
+	
+	100% {
+		width:700%;
+		height:10%;
+		top:-9%;
+	}
+}  
+
+.drop {
+	position:absolute;
+	top:30px;
+	left:20px;
+	width: 50px;
+	height: 50px;
+	border: none;
+	-webkit-border-radius: 80% 0 55% 50% / 55% 0 80% 50%;
+	border-radius: 80% 0 55% 50% / 55% 0 80% 50%;
+	font: normal 100%/normal Arial, Helvetica, sans-serif;
+	background:#17BEBB;
+	-webkit-transform: rotateZ(-45deg)   ;
+	transform: rotateZ(-45deg)   ;
+	-webkit-transform-origin: 50% 50% 0;
+	transform-origin: 50% 50% 0;
+	animation:rain 2s linear 1;
+	animation-fill-mode:forwards;
+	cursor:pointer;
+	z-index:9999;
+}
