@@ -1,5 +1,7 @@
-let controler = new MagicScroll.Controller();
-timeline = new TimeLineMax;
-
-timeline
-.to("text",'5');
+$(".drop").click(function() {
+	$(".stem").addClass("rain");
+	
+	setTimeout(function () { 
+		$('.stem').removeClass('rain');
+	}, 1200);  
+});
