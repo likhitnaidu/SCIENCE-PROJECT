@@ -15,6 +15,10 @@ position: absolute;
 h1{
   position:absolute;
 }
+nav img{
+  height:30px;
+  width:30px;	
+}
 /*.plant{
   background: #A9DDD6;
 	height:300px;
