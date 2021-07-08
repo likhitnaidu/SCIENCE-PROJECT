@@ -7,7 +7,7 @@ body {
   padding:0;
   font-family:verdana;
 }
-.plant{
+/*.plant{
   background: #A9DDD6;
 	height:300px;
 	width:100%;
@@ -112,7 +112,6 @@ body {
 	transform:rotate(195deg);
 }
 
-/* --- ANIMATION --- */
 
 .stem, .leaf {
 	animation-duration: 1.2s!important;
@@ -192,10 +191,6 @@ body {
 
 .drop {
 	position:absolute;
-	top:30px;
-	left:20px;
-	width: 50px;
-	height: 50px;
 	border: none;
 	-webkit-border-radius: 80% 0 55% 50% / 55% 0 80% 50%;
 	border-radius: 80% 0 55% 50% / 55% 0 80% 50%;
@@ -209,9 +204,12 @@ body {
 	animation-fill-mode:forwards;
 	cursor:pointer;
 	z-index:9999;
-}
+}*/
 .lol{
 height:460px;
 width:100%;
 position: absolute;
+}
+.lol h1{
+  position:absolute;
 }
