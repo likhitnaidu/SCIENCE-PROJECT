@@ -7,6 +7,14 @@ body {
   padding:0;
   font-family:verdana;
 }
+.lol{
+height:460px;
+width:100%;
+position: absolute;
+}
+h1{
+  position:absolute;
+}
 /*.plant{
   background: #A9DDD6;
 	height:300px;
@@ -205,11 +213,4 @@ body {
 	cursor:pointer;
 	z-index:9999;
 }*/
-.lol{
-height:460px;
-width:100%;
-position: absolute;
-}
- h1{
-  position:absolute;
-}
+
