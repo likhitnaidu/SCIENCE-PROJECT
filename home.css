@@ -24,20 +24,9 @@ h1{
 	width:100%;
 }
 .article01{
-  height:50px;
+  height:200px;
 	width:100%;
-	background-color:#ff4500;
-	animate:fade;
+
 }
-@keyframes fade{
-	0%{
-		opacity:0
-	}
-	50%{
-	        opacity:1;
-	}
-	100%{
-		opacity:2;
-	}
-}
+
 
