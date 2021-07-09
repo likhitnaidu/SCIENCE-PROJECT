@@ -26,5 +26,17 @@ h1{
   height:50px;
 	width:100%;
 	background-color:#ff4500;
+	animate:fade;
+}
+@keyframes fade{
+	0%{
+		opacity:0
+	}
+	50%{
+	        opacity:1;
+	}
+	100%{
+		opacity:2;
+	}
 }
 
