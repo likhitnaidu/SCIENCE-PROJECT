@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
     <link rel="stylesheet" href="./css.css">
     <title>biology</title>
 </head>
@@ -37,37 +39,84 @@
             </div>
         </div>
     </nav>
+    <form id="calorie-form">
     <div class="lol">
         <h1>Know What To Eat</h1>
         <div class="yea">
-            <h5>Enter Your Birth Year</h5>
-            <input class="year" type="number">
+            <h5>Enter Your Age</h5>
+            <input id="age" type="number" placeholder="in years">
         </div>
         <div class="ye">
             <H5>Enter Your weight</H5>
-            <input class="weight" type="number">
+            <input id="weight" type="number" placeholder="kg">
         </div>
+        <fieldset class="form-group">
+            <div class="row">
+                <legend class="col-form-label col-sm-2 pt-0">Gender</legend>
+                <div class="col-sm-10" id="form-radio">
+                    <div class="custom-control custom-radio custom-control-inline">
+                        <input type="radio" id="male" name="customRadioInline1" class="custom-control-input"
+                            checked="checked">
+                        <label class="custom-control-label" for="male">Male</label>
+                    </div>
+                    <div class="custom-control custom-radio custom-control-inline">
+                        <input type="radio" id="feale" name="customRadioInline1" class="custom-control-input">
+                        <label class="custom-control-label" for="female">Female</label>
+                    </div>
+                </div>
+            </div>
+        </fieldset>
         <div class="ya">
             <h5>Enter Your Height</h5>
-            <input class="height" type="number">
+            <input id="height" type="number" placeholder="cm">
         </div>
-        <button  class="but" type="submit">Calculate</button>
+        <div class="form-group row">
+            <legend class="col-form-label col-sm-2 pt-0">Activity</legend>
+            <select class="custom-select col-sm-10" id="list">
+                <option selected value="1">Sedentary (little or no exercise)</option>
+                <option value="2">Lightly active (light exercise/sports 1-3 days/week)</option>
+                <option value="3">Moderately active (moderate exercise/sports 3-5 days/week)</option>
+                <option value="4">Very active (hard exercise/sports 6-7 days a week)</option>
+                <option value="5">Extra active (very hard exercise/sports & physical job or 2x training)</option>
+            </select>
+        </div>
+        <button id="but" value="Calculate" type="submit">Calculate</button>
+        <div id="loading">
+            <img src="./img/Loading.gif" alt="">
+        </div>
+    </form>
+        <div id="results" class="pt-4">
+            <h5>Total Calories</h5>
+            <div class="form-group">
+                <div class="input-group">
+                    <input type="number" class="form-control" id="total-calories" disabled>
+                </div>
+            </div>
+        </div>
     </div>
     <div class="facts">
         <h1><b><u>Lets Get Some Knowledge !</u></b></h1>
         <hr>
         <div class="op">
-        <h2><b> What is Calorie ?</b></h2>
-        <h2><b>A calorie is a unit of energy. In the scientific world, a calorie is the amount of energy needed to raise
-                1 gram of water by 1 degree Celsius, which is sometimes called a small calorie. In the nutrition world,
-                a calorie indicates the amount of energy in foods. Since a food calorie is equal to 1,000 small
-                calories, it is sometimes called a large calorie or a kilocalorie (kcal).</b></h2>
-            </div>
-            </div>
+            <h2><b> What is Calorie ?</b></h2>
+            <h2><b>A calorie is a unit of energy. In the scientific world, a calorie is the amount of energy needed to
+                    raise
+                    1 gram of water by 1 degree Celsius, which is sometimes called a small calorie. In the nutrition
+                    world,
+                    a calorie indicates the amount of energy in foods. Since a food calorie is equal to 1,000 small
+                    calories, it is sometimes called a large calorie or a kilocalorie (kcal).</b></h2>
+        </div>
+    </div>
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
     crossorigin="anonymous"></script>
-<script src="./lol.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+<script src="lol.js"></script>
 
 </html>
