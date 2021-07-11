@@ -7,6 +7,10 @@ body {
   padding:0;
   font-family:verdana;
 }
+.op{
+    height:40px;
+	width:40px;
+}
 .lol{
 	background-image:url("https://lh3.googleusercontent.com/proxy/H8QUKq4UxfaxMWcbCkeAMzs9PQtNDAFoAiTwzSJy7qhzW-xjZPmNO73XQOX_L2IDSUKYuYN0a064aimrEIWbfWgw2SXS8N2xnWKT");
   min-height: 750px;
