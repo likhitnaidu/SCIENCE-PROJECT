@@ -1,0 +1,59 @@
+body{
+    text-align: center;
+   font-family: cursive;
+}
+.nav-link active{
+    margin-left: 120px;
+}
+.likhit{
+    height: 40px;
+    width:40px;
+}
+.lol{
+    background-image: url("https://wallpaperaccess.com/full/629546.jpg");
+    min-height: 750px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+    
+}
+.yea{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.ye{
+    margin-bottom: 30px;
+}
+.ya{
+    margin-bottom: 30px;
+}
+.lol h5{
+    color: white;
+}
+.lol h1{
+    color: white;
+}
+.facts{
+    height:450px;
+    width:100%;
+    background-color: black;
+
+    
+}
+.facts h1{
+    color: #00b09b;  
+}
+.facts h2{
+    color:#00b09b;
+}
+.facts h2{
+    color:#00b09b;
+}
+.op{
+    text-align:left ;
+    margin-top: 50px;
+    margin-left: 30px;
+
+}
