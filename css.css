@@ -2,9 +2,7 @@ body{
     text-align: center;
    font-family: monospace;
 }
-.nav-link active{
-    margin-left: 120px;
-}
+
 .likhit{
     height: 40px;
     width:40px;
