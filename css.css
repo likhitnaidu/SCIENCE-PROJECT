@@ -1,6 +1,6 @@
 body{
     text-align: center;
-   font-family: cursive;
+   font-family: monospace;
 }
 .nav-link active{
     margin-left: 120px;
