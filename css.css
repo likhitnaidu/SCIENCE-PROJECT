@@ -57,3 +57,6 @@ body{
     margin-left: 30px;
 
 }
+.col-form-label col-sm-2 pt-0{
+    color:white;
+}
