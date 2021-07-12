@@ -21,6 +21,7 @@ body {
 }
 
 .lol h1{ 
+	transition:10s;
    color:white;
 	text-align:center;
 	position:absolute;
@@ -40,6 +41,8 @@ body {
 
 }
 .article01 h2{
+		transition:10s;
+
   text-align:right;
    margin-top:20px;
 	margin-rghit:30px;
