@@ -32,6 +32,9 @@ nav{
 	left:50%;
 	
 	transform:translate(-50%,-30%)
+	 animation: fadeInAnimation ease 3s;
+            animation-iteration-count: 1;
+            animation-fill-mode: forwards;
 }
 	
 .lolol{
@@ -64,5 +67,12 @@ height:300px;
 	width:100%;
 	background-color:#1C2826;
 }
+@keyframes fadeInAnimation {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
 
 
