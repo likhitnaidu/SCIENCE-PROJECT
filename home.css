@@ -41,6 +41,8 @@ nav{
 .article01{
   height:200px;
 	width:100%;
+	background-color:#1C2826;
+
 
 }
 .article01 h2{
@@ -49,16 +51,18 @@ nav{
   text-align:right;
    margin-top:20px;
 	margin-rghit:30px;
-  	
+  	background-color:#1C2826;
 	
 }
 .a{
 height:300px;
 	width:100%;
+	background-color:#1C2826;
 }
 .b{
 height:300px;
 	width:100%;
+	background-color:#1C2826;
 }
 
 
