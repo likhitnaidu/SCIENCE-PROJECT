@@ -19,7 +19,7 @@ body{
     right: 70px;
     height: 200px;
     width: 250px;
-    animation:  lol 0 10s linear infinite;
+    animation:  lol0 10s linear infinite;
 }
 .lol 1{
     position: absolute;
@@ -27,7 +27,7 @@ body{
     right: 70px;
     height: 200px;
     width: 250px;
-    animation:  lol 1 10s linear infinite;
+    animation:  lol1 10s linear infinite;
 }
 .lol 2{
     position: absolute;
@@ -35,7 +35,7 @@ body{
     right: 70px;
     height: 200px;
     width: 250px;
-    animation:  lol 2 10s linear infinite;
+    animation:  lol2 10s linear infinite;
 }
 .lol 3{
     position: absolute;
@@ -43,7 +43,7 @@ body{
     right: 70px;
     height: 200px;
     width: 250px;
-    animation:  lol 3 10s linear infinite;
+    animation:  lol3   10s linear infinite;
 }
 .lol 4{
     position: absolute;
@@ -59,14 +59,14 @@ body{
     right: 70px;
     height: 200px;
     width: 250px;
-    animation:  lol 5 10s linear infinite;
+    animation:  lol5 10s linear infinite;
 }
 .lol h1{
     border-top: 50px;
     border-bottom: 20px;
 }
 
-@keyframes lol 0{
+@keyframes lol0{
     0%{
         height: 200px;
     width: 250px;
@@ -91,7 +91,7 @@ width: 250px;
         height: 500px;
         width: 250px;
 }
-@keyframes lol 1{
+@keyframes lol1{
     0%{
         height: 200px;
     width: 250px;
@@ -116,7 +116,7 @@ width: 250px;
         height: 500px;
         width: 250px;
 }
-@keyframes lol 2{
+@keyframes lol2{
     0%{
         height: 200px;
     width: 250px;
@@ -141,7 +141,7 @@ width: 250px;
         height: 500px;
         width: 250px;
 } 
-    @keyframes lol 3{
+    @keyframes lol3{
     0%{
         height: 200px;
     width: 250px;
@@ -166,7 +166,7 @@ width: 250px;
         height: 500px;
         width: 250px;
 }
-        @keyframes lol 4{
+        @keyframes lol4{
     0%{
         height: 200px;
     width: 250px;
@@ -191,7 +191,7 @@ width: 250px;
         height: 500px;
         width: 250px;
 }
-            @keyframes lol 5{
+            @keyframes lol5{
     0%{
         height: 200px;
     width: 250px;
