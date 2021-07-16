@@ -38,22 +38,6 @@ nav{
 	height:750px;
 	width:100%;
 }
-.article01{
-  height:200px;
-	width:100%;
-	background-color:#1C2826;
-
-
-}
-.article01 h2{
-		transition:10s;
-
-  text-align:right;
-   margin-top:20px;
-	margin-rghit:30px;
-  	background-color:#1C2826;
-	
-}
 .a{
 height:300px;
 	width:100%;
@@ -64,6 +48,18 @@ height:300px;
 	width:100%;
 	background-color:#1C2826;
 }
+.c{
+	color:"white";
+	height:300px;
+	width:100%;
+	background-color:#1C2826;
+}
+.D{
+height:300px;
+	width:100%;
+	background-color:#1C2826;
+}
+
 
 
 
