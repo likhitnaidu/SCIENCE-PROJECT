@@ -1,6 +1,6 @@
 body{
     text-align: center;
-   font-family: monospace;
+    font-family: monospace;
 }
 
 .likhit{
@@ -8,14 +8,13 @@ body{
     width:40px;
 }
 .lol{
+    text-align: center;
     background-image: url("https://wallpaperaccess.com/full/629546.jpg");
     min-height: 750px;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
- 
-    
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .yea{
     margin-top: 30px;
@@ -57,4 +56,70 @@ body{
 }
 .col-form-label col-sm-2 pt-0{
     color:white;
+}
+.row h1{
+    margin-left:57px;
+}
+legend{
+    position: relative;
+    left: 20px;
+}
+.butt{
+    box-sizing: border-box;
+    /* box-shadow: 0 2px 2px 1px greenyellow; */
+    margin: 50px ;
+    color:#DF2935;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1rem;
+    border-radius: 50%;
+    height: 40px;
+    width: 90px;
+    margin-bottom: 0px ;
+    background-color:rgba(93, 221, 210, 0.466);
+    transition: background-color 0.2s ease;
+}
+.butt:hover{
+    color: #DF2935;
+    background-color:blue ;
+}
+.butt:active{
+    color:#DF2935;
+    background-color:rgba(93, 221, 210, 0.466);
+}
+.col-sm-2 pt-0{
+    position: absolute;
+    top:450px;
+
+}
+.col-sm-2 pt-0{
+    position: absolute;
+    top:450px;
+}
+#list{
+    justify-content: center;
+    width: 400px;
+    left:80px;
+}
+.col-form-label{
+    justify-content: center;
+    align-items: center;
+    margin-right: 400px;
+}
+h5{
+    text-align: center;
+}
+.form-group h5{
+        margin-left: 430px;
+}
+.custom-control-label{
+        margin-left: 300px;
+        
+}
+label.custom-control-label{
+    color: blue;
+}
+.form-control{
+    justify-content: center;
+    width: 400px;
+    left:80px;
 }
