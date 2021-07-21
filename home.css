@@ -38,27 +38,54 @@ nav{
 	height:750px;
 	width:100%;
 }
-.a{
+.img1{
+	height: 140px;
+	width: 190px;
+	align-items: center;
+}
+.a {
 height:300px;
 	width:100%;
-	background-color:#66b3ff;
+	background-color:#4ADBC8;
+	text-align: left;
+}
+.a h4{
+	padding-top: 30px;
+	padding-left: 30px;
+}
+.a h5{
+	padding-left: 30px;
 }
 .b{
 height:300px;
 	width:100%;
-	background-color:#66b3ff;
+	background-color:#4ADBC8;
+	text-align: right;
 }
 .c{
 	color:"white";
 	height:300px;
 	width:100%;
-	background-color:#66b3ff;
+	background-color:#4ADBC8;
+	text-align: left;
 }
 .D{
 height:300px;
 	width:100%;
-	background-color:#66b3ff;
+	background-color:#4ADBC8;
+	text-align: right;
 }
+.g{
+	height: 40px;
+	width: 40px;
+	text-align: left;
+}
+.l{
+	height: 40px;
+	width: 40px;
+	text-align: right;
+}
+
 
 
 
