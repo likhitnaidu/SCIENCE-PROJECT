@@ -1,218 +1,34 @@
-body{
-    text-align: center;
-   font-family: cursive;
+* {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+body {
+  text-align: center;
+  font-family: cursive;
 }
 
-
-.likhit{
-    height: 40px;
-    width:40px;
+nav {
+  width: 100vw;
 }
-.lol{
-    height: 750px;
-    width: 100%;
-    background-color: lightskyblue;
+.likhit {
+  height: 40px;
+  width: 40px;
 }
-.lol 0{
-    position: absolute;
-    bottom: 0px;
-    right: 70px;
-    height: 200px;
-    width: 250px;
-    animation:  lol0 10s linear infinite;
+div.aphoto {
+  height: 100vh;
+  width: 100vw;
+  font-size: 2rem;
+  text-shadow: 2px 2px 2px;
+  color: rgb(128, 48, 48);
 }
-.lol 1{
-    position: absolute;
-    bottom: 0px;
-    right: 70px;
-    height: 200px;
-    width: 250px;
-    animation:  lol1 10s linear infinite;
+.aphoto {
+  background: url(pexels-skitterphoto-9198.jpg) center/cover no-repeat;
+  /* transition: all 2s ease; */
 }
-.lol 2{
-    position: absolute;
-    bottom: 0px;
-    right: 70px;
-    height: 200px;
-    width: 250px;
-    animation:  lol2 10s linear infinite;
-}
-.lol 3{
-    position: absolute;
-    bottom: 0px;
-    right: 70px;
-    height: 200px;
-    width: 250px;
-    animation:  lol3   10s linear infinite;
-}
-.lol 4{
-    position: absolute;
-    bottom: 0px;
-    right: 70px;
-    height: 200px;
-    width: 250px;
-    animation:  lol 4 10s linear infinite;
-}
-.lol 5{
-    position: absolute;
-    bottom: 0px;
-    right: 70px;
-    height: 200px;
-    width: 250px;
-    animation:  lol5 10s linear infinite;
-}
-.lol h1{
-    border-top: 50px;
-    border-bottom: 20px;
+.aphoto a {
+  text-decoration: none;
+  color: green;
+  font-size: 3rem;
 }
 
-@keyframes lol0{
-    0%{
-        height: 200px;
-    width: 250px;
-    }
-    
-    25%{
-        height: 300px;
-width: 250px;
-    } 
-    
-     50%{
-        height: 400px;
-width: 250px;
-    }
-     
-     75%{
-        height: 450px;
-width: 250px;
-    }
-  
-    100%{
-        height: 500px;
-        width: 250px;
-}
-@keyframes lol1{
-    0%{
-        height: 200px;
-    width: 250px;
-    }
-    
-    25%{
-        height: 300px;
-width: 250px;
-    } 
-    
-     50%{
-        height: 400px;
-width: 250px;
-    }
-     
-     75%{
-        height: 450px;
-width: 250px;
-    }
-  
-    100%{
-        height: 500px;
-        width: 250px;
-}
-@keyframes lol2{
-    0%{
-        height: 200px;
-    width: 250px;
-    }
-    
-    25%{
-        height: 300px;
-width: 250px;
-    } 
-    
-     50%{
-        height: 400px;
-width: 250px;
-    }
-     
-     75%{
-        height: 450px;
-width: 250px;
-    }
-  
-    100%{
-        height: 500px;
-        width: 250px;
-} 
-    @keyframes lol3{
-    0%{
-        height: 200px;
-    width: 250px;
-    }
-    
-    25%{
-        height: 300px;
-width: 250px;
-    } 
-    
-     50%{
-        height: 400px;
-width: 250px;
-    }
-     
-     75%{
-        height: 450px;
-width: 250px;
-    }
-  
-    100%{
-        height: 500px;
-        width: 250px;
-}
-        @keyframes lol4{
-    0%{
-        height: 200px;
-    width: 250px;
-    }
-    
-    25%{
-        height: 300px;
-width: 250px;
-    } 
-    
-     50%{
-        height: 400px;
-width: 250px;
-    }
-     
-     75%{
-        height: 450px;
-width: 250px;
-    }
-  
-    100%{
-        height: 500px;
-        width: 250px;
-}
-            @keyframes lol5{
-    0%{
-        height: 200px;
-    width: 250px;
-    }
-    
-    25%{
-        height: 300px;
-width: 250px;
-    } 
-    
-     50%{
-        height: 400px;
-width: 250px;
-    }
-     
-     75%{
-        height: 450px;
-width: 250px;
-    }
-  
-    100%{
-        height: 500px;
-        width: 250px;
-}    
