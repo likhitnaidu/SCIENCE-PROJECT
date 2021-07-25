@@ -14,6 +14,32 @@ nav{
     height:40px;
 	width:40px;
 }
+.clones-2 {
+  height:40px;
+  width: calc(0.866*40px);
+  display: grid;
+  background: conic-gradient(from -121deg at right,#0000, #BF1E62 1deg 60deg,#0000 61deg);
+  animation: cl2 2s infinite linear;
+  transform-origin: 33% 50%;
+}
+.clones-2:before,
+.clones-2:after {
+  content: "";
+  grid-area: 1/1;
+  background: conic-gradient(from -121deg at right,#0000, #FFA588 1deg 60deg,#0000 61deg);
+  transform-origin: inherit;
+  animation: inherit;
+}
+
+.clones-2:after {
+  background: conic-gradient(from -121deg at right,#0000, #027B7F 1deg 60deg,#0000 61deg);
+  animation-duration: 3s;
+}
+
+@keyframes cl2{
+  100% {transform: rotate(1turn)}
+}
+
 .lol{
 	background-image:url("./pexels-simon-berger-1323550.jpg");
   min-height: 800px;
